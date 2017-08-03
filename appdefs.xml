@@ -24,6 +24,11 @@ compliant Blu-ray Disc or AVCHD.  Blu-ray 3D support.
     <unraid>
       <support_url>https://forums.lime-technology.com/topic/58629-support-tsmuxer/</support_url>
       <category>MediaApp:Video</category>
+      <extra_description>
+    [span style='color: red;'][b]Warning:[/b][/span] Because tsMuxeR is a 32-bit
+    application, unRAID must be at least at version 6.4-rc7 for this container
+    to work.
+      </extra_description>
     </unraid>
     <container>
       <rough_download_size>100MB</rough_download_size>
