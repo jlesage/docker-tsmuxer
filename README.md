@@ -1,5 +1,5 @@
 # Docker container for tsMuxeR
-[![Docker Automated build](https://img.shields.io/docker/automated/jlesage/tsmuxer.svg)](https://hub.docker.com/r/jlesage/tsmuxer/) [![](https://images.microbadger.com/badges/image/jlesage/tsmuxer.svg)](http://microbadger.com/#/images/jlesage/tsmuxer "Get your own image badge on microbadger.com") [![Build Status](https://travis-ci.org/jlesage/docker-tsmuxer.svg?branch=master)](https://travis-ci.org/jlesage/docker-tsmuxer)
+[![Docker Automated build](https://img.shields.io/docker/automated/jlesage/tsmuxer.svg)](https://hub.docker.com/r/jlesage/tsmuxer/) [![](https://images.microbadger.com/badges/image/jlesage/tsmuxer.svg)](http://microbadger.com/#/images/jlesage/tsmuxer "Get your own image badge on microbadger.com") [![Build Status](https://travis-ci.org/jlesage/docker-tsmuxer.svg?branch=master)](https://travis-ci.org/jlesage/docker-tsmuxer) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/JocelynLeSage)
 
 This is a Docker container for tsMuxeR.
 
