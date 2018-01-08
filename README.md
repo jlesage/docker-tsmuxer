@@ -133,7 +133,7 @@ docker stop tsmuxer
 ```
   3. Remove the container:
 ```
-docker stop tsmuxer
+docker rm tsmuxer
 ```
   4. Start the container using the `docker run` command.
 
