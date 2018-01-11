@@ -13,7 +13,7 @@ mkdir -p "$XDG_CONFIG_HOME/Network Optix"
 [ -f /config/"Network Optix"/tsMuxeR.conf ] || cp -v /defaults/tsMuxeR.conf "$XDG_CONFIG_HOME/Network Optix/"
 [ -f /config/Trolltech.conf ] || cp -v /defaults/Trolltech.conf "$XDG_CONFIG_HOME/"
 
-# Take ownership of the config directory.
-chown -R $USER_ID:$GROUP_ID /config
+# Take ownership of the config directory content.
+chown -R $USER_ID:$GROUP_ID /config/*
 
 # vim: set ft=sh :
