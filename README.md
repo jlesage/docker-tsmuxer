@@ -20,6 +20,9 @@ compliant Blu-ray Disc or AVCHD.  Blu-ray 3D support.
 
 ## Quick Start
 
+**NOTE**: The Docker command provided in this quick start is given as an example
+and parameters should be adjusted to your need.
+
 Launch the tsMuxeR docker container with the following command:
 ```
 docker run -d \
