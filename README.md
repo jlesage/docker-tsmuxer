@@ -1,5 +1,5 @@
 # Docker container for tsMuxeR
-[![Docker Automated build](https://img.shields.io/docker/automated/jlesage/tsmuxer.svg)](https://hub.docker.com/r/jlesage/tsmuxer/) [![](https://images.microbadger.com/badges/image/jlesage/tsmuxer.svg)](http://microbadger.com/#/images/jlesage/tsmuxer "Get your own image badge on microbadger.com") [![Build Status](https://travis-ci.org/jlesage/docker-tsmuxer.svg?branch=master)](https://travis-ci.org/jlesage/docker-tsmuxer) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/JocelynLeSage)
+[![Docker Automated build](https://img.shields.io/docker/automated/jlesage/tsmuxer.svg)](https://hub.docker.com/r/jlesage/tsmuxer/) [![Docker Image](https://images.microbadger.com/badges/image/jlesage/tsmuxer.svg)](http://microbadger.com/#/images/jlesage/tsmuxer) [![Build Status](https://travis-ci.org/jlesage/docker-tsmuxer.svg?branch=master)](https://travis-ci.org/jlesage/docker-tsmuxer) [![GitHub Release](https://img.shields.io/github/release/jlesage/docker-tsmuxer.svg)](https://github.com/jlesage/docker-tsmuxer/releases/latest) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/JocelynLeSage)
 
 This is a Docker container for tsMuxeR.
 
@@ -104,6 +104,7 @@ container cannot be changed, but you are free to use any port on the host side.
 | 5900 | Optional | Port used to access the application's GUI via the VNC protocol.  Optional if no VNC client is used. |
 
 ## Docker Compose File
+
 Here is an example of a `docker-compose.yml` file that can be used with
 [Docker Compose](https://docs.docker.com/compose/overview/).
 
