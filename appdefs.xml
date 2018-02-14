@@ -183,5 +183,7 @@ compliant Blu-ray Disc or AVCHD.  Blu-ray 3D support.
     <ports/>
     <!-- Devices -->
     <devices/>
+    <!-- Extra parameters -->
+    <extra_params/>
   </container>
 </defs>
