@@ -1,7 +1,7 @@
 # Docker container for tsMuxeR
 [![Docker Automated build](https://img.shields.io/docker/automated/jlesage/tsmuxer.svg)](https://hub.docker.com/r/jlesage/tsmuxer/) [![Docker Image](https://images.microbadger.com/badges/image/jlesage/tsmuxer.svg)](http://microbadger.com/#/images/jlesage/tsmuxer) [![Build Status](https://travis-ci.org/jlesage/docker-tsmuxer.svg?branch=master)](https://travis-ci.org/jlesage/docker-tsmuxer) [![GitHub Release](https://img.shields.io/github/release/jlesage/docker-tsmuxer.svg)](https://github.com/jlesage/docker-tsmuxer/releases/latest) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/JocelynLeSage/0usd)
 
-This is a Docker container for tsMuxeR.
+This is a Docker container for [tsMuxeR](http://forum.doom9.org/showthread.php?t=168539).
 
 The GUI of the application is accessed through a modern web browser (no installation or configuration needed on client side) or via any VNC client.
 
