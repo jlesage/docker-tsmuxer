@@ -166,6 +166,7 @@ ports are part of the example.
 version: '3'
 services:
   tsmuxer:
+    image: jlesage/tsmuxer
     build: .
     ports:
       - "5800:5800"
