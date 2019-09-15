@@ -4,6 +4,11 @@
 # https://github.com/jlesage/docker-tsmuxer
 #
 
+# Build tsMuxer.
+FROM ubuntu:xenial
+COPY tsmuxer-builder /tmp/tsmuxer-builder
+RUN /tmp/tsmuxer-builder/builder/build.sh /tmp/
+
 ARG DOCKER_IMAGE_VERSION=unknown
 
 # Pull base image.
@@ -13,7 +18,7 @@ FROM jlesage/baseimage-gui:alpine-3.8-v3.5.2
 WORKDIR /tmp
 
 # Install tsMuxeR.
-ADD tsmuxer-builder/tsmuxer.tar.gz /
+COPY --from=0 /tmp/tsmuxer-install /
 
 # Generate and install favicons.
 RUN \
