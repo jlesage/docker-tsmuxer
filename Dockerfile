@@ -9,10 +9,11 @@ FROM ubuntu:xenial
 COPY tsmuxer-builder /tmp/tsmuxer-builder
 RUN /tmp/tsmuxer-builder/builder/build.sh /tmp/
 
-ARG DOCKER_IMAGE_VERSION=unknown
-
 # Pull base image.
 FROM jlesage/baseimage-gui:alpine-3.8-v3.5.2
+
+# Docker image version is provided via build arg.
+ARG DOCKER_IMAGE_VERSION=unknown
 
 # Define working directory.
 WORKDIR /tmp
