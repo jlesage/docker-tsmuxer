@@ -3,7 +3,7 @@
 
 This is a Docker container for [tsMuxeR](http://forum.doom9.org/showthread.php?t=168539).
 
-The GUI of the application is accessed through a modern web browser (no installation or configuration needed on client side) or via any VNC client.
+The GUI of the application is accessed through a modern web browser (no installation or configuration needed on the client side) or via any VNC client.
 
 ---
 
