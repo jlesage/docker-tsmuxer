@@ -1,5 +1,5 @@
 # Docker container for tsMuxeR
-[![Docker Image Size](https://img.shields.io/microbadger/image-size/jlesage/tsmuxer)](http://microbadger.com/#/images/jlesage/tsmuxer) [![Build Status](https://drone.le-sage.com/api/badges/jlesage/docker-tsmuxer/status.svg)](https://drone.le-sage.com/jlesage/docker-tsmuxer) [![GitHub Release](https://img.shields.io/github/release/jlesage/docker-tsmuxer.svg)](https://github.com/jlesage/docker-tsmuxer/releases/latest) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/JocelynLeSage/0usd)
+[![Docker Image Size](https://img.shields.io/docker/image-size/jlesage/tsmuxer/latest)](https://hub.docker.com/r/jlesage/tsmuxer/tags) [![Build Status](https://drone.le-sage.com/api/badges/jlesage/docker-tsmuxer/status.svg)](https://drone.le-sage.com/jlesage/docker-tsmuxer) [![GitHub Release](https://img.shields.io/github/release/jlesage/docker-tsmuxer.svg)](https://github.com/jlesage/docker-tsmuxer/releases/latest) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/JocelynLeSage/0usd)
 
 This is a Docker container for [tsMuxeR](http://forum.doom9.org/showthread.php?t=168539).
 
