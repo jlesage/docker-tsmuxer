@@ -73,7 +73,7 @@ mkdir /tmp/tsmuxer
 curl -# -L ${TSMUXER_URL} | tar xz --strip 1 -C /tmp/tsmuxer
 
 #
-# Compile tsMuxeR GUI
+# Compile tsMuxeR.
 #
 
 # Set the version from commit hash.
