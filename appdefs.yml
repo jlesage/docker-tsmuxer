@@ -30,7 +30,7 @@ app:
       date: 2022-10-25
       changes:
         - 'Now using the open source version of tsMuxeR.'
-        - 'Versioning scheme changed to `YY.MM.SEQUENCE`.'
+        - 'Versioning scheme of the Docker image changed to `YY.MM.SEQUENCE`.'
         - 'Update of the baseimage to version 4.1.1 brings the following new features:'
         - '2:Multi-arch image support.'
         - '2:Support for dark mode.'
