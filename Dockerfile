@@ -73,6 +73,6 @@ VOLUME ["/storage"]
 LABEL \
       org.label-schema.name="tsmuxer" \
       org.label-schema.description="Docker container for tsMuxeR" \
-      org.label-schema.version="${DOCKER_IMAGE_VERSION:-}" \
+      org.label-schema.version="${DOCKER_IMAGE_VERSION:-unknown}" \
       org.label-schema.vcs-url="https://github.com/jlesage/docker-tsmuxer" \
       org.label-schema.schema-version="1.0"
