@@ -26,6 +26,11 @@ app:
     category: "MediaApp:Video"
   documentation:
   changelog:
+    - version: 22.12.1
+      date: 2022-12-09
+      changes:
+        - 'Updated tsMuxeR to version nightly-2022-11-23-02-43-45.'
+        - 'Updated baseimage to version `4.2.1`, which brings multiple internal enhancements.'
     - version: 22.11.1
       date: 2022-11-07
       changes:
