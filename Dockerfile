@@ -42,7 +42,7 @@ RUN add-pkg \
         qt5-qtbase-x11 \
         qt5-qtmultimedia \
         adwaita-qt \
-        mesa-dri-swrast \
+        mesa-dri-gallium \
         # A font is needed.
         font-croscore \
         && \
