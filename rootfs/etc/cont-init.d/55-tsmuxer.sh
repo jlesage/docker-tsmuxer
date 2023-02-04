@@ -13,4 +13,4 @@ mkdir -p "$XDG_CONFIG_HOME/Network Optix"
 [ -f /$XDG_CONFIG_HOME/"Network Optix"/tsMuxeR.conf ] || cp -v /defaults/tsMuxeR.conf "$XDG_CONFIG_HOME/Network Optix/"
 [ -f /$XDG_CONFIG_HOME/Trolltech.conf ] || cp -v /defaults/Trolltech.conf "$XDG_CONFIG_HOME/"
 
-# vim: set ft=sh :
+# vim:ft=sh:ts=4:sw=4:et:sts=4
