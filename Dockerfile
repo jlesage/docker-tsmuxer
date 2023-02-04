@@ -29,7 +29,7 @@ RUN xx-verify \
     /tmp/tsmuxer-install/usr/bin/tsMuxerGUI
 
 # Pull base image.
-FROM jlesage/baseimage-gui:alpine-3.16-v4.3.1
+FROM jlesage/baseimage-gui:alpine-3.16-v4.3.3
 
 ARG TSMUXER_VERSION
 ARG DOCKER_IMAGE_VERSION
