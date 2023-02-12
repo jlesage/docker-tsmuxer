@@ -8,7 +8,7 @@ installation or configuration needed on the client side) or via any VNC client.
 
 ---
 
-[![tsMuxeR logo](https://images.weserv.nl/?url=raw.githubusercontent.com/jlesage/docker-templates/master/jlesage/images/tsmuxer-icon.png&w=110)](https://github.com/justdan96/tsMuxer)[![tsMuxeR](https://images.placeholders.dev/?width=224&height=110&fontFamily=Georgia,sans-serif&fontWeight=400&fontSize=52&text=tsMuxeR&bgColor=rgba(0,0,0,0.0)&textColor=rgba(121,121,121,1))](https://github.com/justdan96/tsMuxer)
+[![tsMuxeR logo](https://images.weserv.nl/?url=raw.githubusercontent.com/jlesage/docker-templates/master/jlesage/images/tsmuxer-icon.png&w=110)](https://github.com/justdan96/tsMuxer)[![tsMuxeR](https://images.placeholders.dev/?width=224&height=110&fontFamily=monospace&fontWeight=400&fontSize=52&text=tsMuxeR&bgColor=rgba(0,0,0,0.0)&textColor=rgba(121,121,121,1))](https://github.com/justdan96/tsMuxer)
 
 tsMuxer is a Transport Stream muxer. Remux/mux elementary streams, EVO/VOB/MPG,
 MKV/MKA, MP4/MOV, TS, M2TS to TS to M2TS. Supported video codecs H.264, VC-1,
