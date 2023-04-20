@@ -70,7 +70,7 @@ fi
 
 log "Downloading tsMuxeR package..."
 mkdir /tmp/tsmuxer
-curl -# -L ${TSMUXER_URL} | tar xz --strip 1 -C /tmp/tsmuxer
+curl -# -L -f ${TSMUXER_URL} | tar xz --strip 1 -C /tmp/tsmuxer
 
 #
 # Compile tsMuxeR.
