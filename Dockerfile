@@ -8,7 +8,7 @@
 ARG DOCKER_IMAGE_VERSION=
 
 # Define software versions.
-ARG TSMUXER_VERSION=nightly-2023-02-18-02-20-49
+ARG TSMUXER_VERSION=nightly-2023-04-13-02-05-26
 
 # Define software download URLs.
 ARG TSMUXER_URL=https://github.com/justdan96/tsMuxer/archive/refs/tags/${TSMUXER_VERSION}.tar.gz
