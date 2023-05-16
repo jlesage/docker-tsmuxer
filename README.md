@@ -1,5 +1,10 @@
 # Docker container for tsMuxeR
-[![Docker Image Size](https://img.shields.io/docker/image-size/jlesage/tsmuxer/latest)](https://hub.docker.com/r/jlesage/tsmuxer/tags) [![Build Status](https://github.com/jlesage/docker-tsmuxer/actions/workflows/build-image.yml/badge.svg?branch=master)](https://github.com/jlesage/docker-tsmuxer/actions/workflows/build-image.yml) [![GitHub Release](https://img.shields.io/github/release/jlesage/docker-tsmuxer.svg)](https://github.com/jlesage/docker-tsmuxer/releases/latest) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/JocelynLeSage)
+[![Release](https://img.shields.io/github/release/jlesage/docker-tsmuxer.svg?logo=github&style=for-the-badge)](https://github.com/jlesage/docker-tsmuxer/releases/latest)
+[![Docker Image Size](https://img.shields.io/docker/image-size/jlesage/tsmuxer/latest?logo=docker&style=for-the-badge)](https://hub.docker.com/r/jlesage/tsmuxer/tags)
+[![Docker Pulls](https://img.shields.io/docker/pulls/jlesage/tsmuxer?label=Pulls&logo=docker&style=for-the-badge)](https://hub.docker.com/r/jlesage/tsmuxer)
+[![Docker Stars](https://img.shields.io/docker/stars/jlesage/tsmuxer?label=Stars&logo=docker&style=for-the-badge)](https://hub.docker.com/r/jlesage/tsmuxer)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/jlesage/docker-tsmuxer/build-image.yml?logo=github&branch=master&style=for-the-badge)](https://github.com/jlesage/docker-tsmuxer/actions/workflows/build-image.yml)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg?style=for-the-badge)](https://paypal.me/JocelynLeSage)
 
 This project implements a Docker container for [tsMuxeR](https://github.com/justdan96/tsMuxer).
 
