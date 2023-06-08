@@ -26,6 +26,10 @@ app:
     category: "MediaApp:Video"
   documentation:
   changelog:
+    - version: 23.06.1
+      date: 2023-06-08
+      changes:
+        - 'Updated tsMuxeR to version nightly-2023-06-04-02-47-33.'
     - version: 23.05.1
       date: 2023-05-27
       changes:
