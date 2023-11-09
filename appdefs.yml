@@ -12,6 +12,7 @@ app:
   name: tsmuxer
   friendly_name: tsMuxeR
   gui_type: x11
+  base_os: alpine
   project:
     description: |-
       tsMuxer is a Transport Stream muxer. Remux/mux elementary streams, EVO/VOB/MPG,
