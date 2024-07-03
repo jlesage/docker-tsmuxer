@@ -29,7 +29,7 @@ RUN xx-verify \
     /tmp/tsmuxer-install/usr/bin/tsMuxerGUI
 
 # Pull base image.
-FROM jlesage/baseimage-gui:alpine-3.16-v4.5.3
+FROM jlesage/baseimage-gui:alpine-3.16-v4.6.3
 
 ARG TSMUXER_VERSION
 ARG DOCKER_IMAGE_VERSION
@@ -42,12 +42,8 @@ RUN add-pkg \
         qt5-qtbase-x11 \
         qt5-qtmultimedia \
         adwaita-qt \
-        mesa-dri-gallium \
         # A font is needed.
-        font-croscore \
-        && \
-    # Save some space by removing unused DRI drivers.
-    find /usr/lib/xorg/modules/dri/ -type f ! -name swrast_dri.so -exec echo "Removing {}..." ';' -delete
+        font-croscore
 
 # Generate and install favicons.
 RUN \
