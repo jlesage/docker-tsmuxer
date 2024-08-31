@@ -17,7 +17,7 @@ ARG TSMUXER_URL=https://github.com/justdan96/tsMuxer/archive/refs/tags/${TSMUXER
 FROM --platform=$BUILDPLATFORM tonistiigi/xx AS xx
 
 # Build tsMuxeR.
-FROM --platform=$BUILDPLATFORM alpine:3.16 AS tsmuxer
+FROM --platform=$BUILDPLATFORM alpine:3.20 AS tsmuxer
 ARG TARGETPLATFORM
 ARG TSMUXER_VERSION
 ARG TSMUXER_URL
@@ -29,7 +29,7 @@ RUN xx-verify \
     /tmp/tsmuxer-install/usr/bin/tsMuxerGUI
 
 # Pull base image.
-FROM jlesage/baseimage-gui:alpine-3.16-v4.6.3
+FROM jlesage/baseimage-gui:alpine-3.20-v4.6.3
 
 ARG TSMUXER_VERSION
 ARG DOCKER_IMAGE_VERSION
