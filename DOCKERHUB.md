@@ -9,8 +9,8 @@
 
 This is a Docker container for [tsMuxeR](https://github.com/justdan96/tsMuxer).
 
-The GUI of the application is accessed through a modern web browser (no
-installation or configuration needed on the client side) or via any VNC client.
+The graphical user interface (GUI) of the application can be accessed through a
+modern web browser, requiring no installation or configuration on the client
 
 ---
 
@@ -28,8 +28,8 @@ compliant Blu-ray Disc or AVCHD.  Blu-ray 3D support.
 ## Quick Start
 
 **NOTE**:
-    The Docker command provided in this quick start is given as an example
-    and parameters should be adjusted to your need.
+    The Docker command provided in this quick start is an example, and parameters
+    should be adjusted to suit your needs.
 
 Launch the tsMuxeR docker container with the following command:
 ```shell
@@ -43,10 +43,10 @@ docker run -d \
 
 Where:
 
-  - `/docker/appdata/tsmuxer`: This is where the application stores its configuration, states, log and any files needing persistency.
-  - `/home/user`: This location contains files from your host that need to be accessible to the application.
+  - `/docker/appdata/tsmuxer`: Stores the application's configuration, state, logs, and any files requiring persistency.
+  - `/home/user`: Contains files from the host that need to be accessible to the application.
 
-Browse to `http://your-host-ip:5800` to access the tsMuxeR GUI.
+Access the tsMuxeR GUI by browsing to `http://your-host-ip:5800`.
 Files from the host appear under the `/storage` folder in the container.
 
 ## Documentation
@@ -55,9 +55,7 @@ Full documentation is available at https://github.com/jlesage/docker-tsmuxer.
 
 ## Support or Contact
 
-Having troubles with the container or have questions?  Please
-[create a new issue].
+Having troubles with the container or have questions? Please
+[create a new issue](https://github.com/jlesage/docker-tsmuxer/issues).
 
-For other great Dockerized applications, see https://jlesage.github.io/docker-apps.
-
-[create a new issue]: https://github.com/jlesage/docker-tsmuxer/issues
+For other Dockerized applications, visit https://jlesage.github.io/docker-apps.
