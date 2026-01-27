@@ -24,7 +24,7 @@ MKV/MKA, MP4/MOV, TS, M2TS to TS to M2TS. Supported video codecs H.264, VC-1,
 MPEG2. Supported audio codecs AAC, AC3 / E-AC3(DD+), DTS/ DTS-HD. Ability to set
 muxing fps manually and automatically, change level for H.264 streams, shift
 sound tracks, extract DTS core from DTS-HD, join files. Output/author to
-compliant Blu-ray Disc or AVCHD.  Blu-ray 3D support.
+compliant Blu-ray Disc or AVCHD. Blu-ray 3D support.
 
 ---
 
