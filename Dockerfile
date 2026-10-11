@@ -8,7 +8,7 @@
 ARG DOCKER_IMAGE_VERSION=
 
 # Define software versions.
-ARG TSMUXER_VERSION=2.18.16
+ARG TSMUXER_VERSION=2.19.0
 
 # Define software download URLs.
 ARG TSMUXER_URL=https://github.com/teaching-droid/tsMuxer/archive/refs/tags/v${TSMUXER_VERSION}.tar.gz
